@@ -1,0 +1,237 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+.header {
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #007765;
+}
+
+.logo {
+  text-align: center;
+  float: left;
+}
+
+.header_text a {
+  color: white;
+  text-decoration: none;
+}
+
+.header_text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 5px;
+
+  text-align: center;
+  float: right;
+  color: #ffffff;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.after_header {
+  padding-top: 244px;
+  padding-bottom: 160px;
+  background-image: url(piper_net_img/after_head.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.after_header__message {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.problem {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #eeeeee;
+}
+
+.text_header {
+  margin-bottom: 20px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+
+  text-align: center;
+
+  color: #007765;
+}
+
+.text {
+  font-family: Roboto, sans-serifboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+
+  color: #000000;
+}
+
+.main {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url(piper_net_img/main.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.main_text {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.piper_coin {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: white;
+}
+
+.img_text {
+  margin-bottom: 50px;
+}
+
+.piper_coin img {
+  margin-right: 20px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.team {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #eeeeee;
+}
+
+.team_members_line {
+  text-align: center;
+}
+
+.team_member {
+  display: inline-block;
+  margin: 50px;
+}
+
+.team_member_foto {
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.team_member_name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #007765;
+}
+
+.team_member_position {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.foot {
+  padding-top: 50px;
+  padding-bottom: 62px;
+  background-color: #333333;
+}
+
+.foot_text {
+  max-width: 540px;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: auto;
+
+  color: #ffffff;
+}
+
+.coin {
+  background-image: url(piper_net_img/ppc_logo.png);
+  height: 155px;
+  width: 155px;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  float: left;
+}
+
+.richard {
+  background-image: url(piper_net_img/richard.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}
+
+.dinesh {
+  background-image: url(piper_net_img/dinesh.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}
+
+.bertram {
+  background-image: url(piper_net_img/bertram.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}
+
+.jared {
+  background-image: url(piper_net_img/jared.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}
+
+.monica {
+  background-image: url(piper_net_img/monica.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}
+
+.nelson {
+  background-image: url(piper_net_img/nelson.png);
+  height: 168px;
+  width: 168px;
+  background-size: cover;
+}

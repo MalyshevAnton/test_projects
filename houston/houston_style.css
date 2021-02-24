@@ -1,0 +1,64 @@
+body {
+  width: 55%;
+  margin: 0 auto;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+h2 {
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+h3 {
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+h4 {
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+h5 {
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+h6 {
+  font-family: sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+table {
+  border: 1px solid black;
+}
+
+caption {
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+th {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+figure {
+    float:right;
+}
