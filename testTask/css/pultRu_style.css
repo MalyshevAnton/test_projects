@@ -1,0 +1,201 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
+
+body {
+  font-family: Gilroy-Regular, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+img {
+  height: 100%;
+  display: block;
+}
+
+p, h2, span {
+  margin: 0;
+}
+
+.wrapper {
+  /* box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px; */
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 24px;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider {
+  margin-top: 0px;
+  /* width: 100%;
+  height: 100%;
+  min-height: 340px; */
+}
+/* .swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  z-index: 1;
+  flex-wrap: wrap;
+  padding: 0;
+
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+} */
+
+.slider__wrapper {
+  padding-bottom: 50px;
+}
+
+.swiper-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .swiper-lazy {
+  min-height: 340px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+/* .swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 0.3s opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+} */
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+  bottom: 16px; 
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 10px;
+  width: 18px;
+  height: 18px;
+  background: #1d9cd8;
+  opacity: 1;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+  background: black;
+}
+
+.swiper__baner {
+
+  margin: 0;
+  max-height: 540px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper__img {
+  margin: 0;
+  min-height: 340px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-family: gilroy-semibold, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.swiper__text {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 15px;
+  font-size: 24px;
+  line-height: 100%;
+  color: #1d9cd8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.swiper__text .title {
+  text-align:left;
+}
+.swiper__text .subtext {
+  color: black;
+}
+.swiper__footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+  background-color: #1d9cd8;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.swiper__footer .title {
+  font-size: 14px;
+}
+
+.swiper__footer .subtext {
+  font-size: 14px;
+}
+
+.white {
+  color: white;
+}
+
+.discount {
+  font-size: 132px;
+  line-height: 100%;
+}
+
+.toRight {
+  right: 0;
+}
